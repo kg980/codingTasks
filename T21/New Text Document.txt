@@ -1,0 +1,4 @@
+#Pclass, Age, Sex female, Sex male, Embarked C, Q, S
+X = titanic_df.iloc[:,[2, 4, 9, 10, 11, 12, 13]].values
+#Survived
+y = titanic_df.iloc[:,1].values
